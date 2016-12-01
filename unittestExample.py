@@ -68,4 +68,4 @@ class TestListFunctions(unittest.TestCase):
         # theList DOES contain 1.
         # remove will not raise the expected exception
 
-        self.assertRaises(ValueError, self.theList.remove, 0)
+        self.assertRaises(ValueError, self.theList.remove, 1)
