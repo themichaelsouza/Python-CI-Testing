@@ -61,11 +61,11 @@ class TestListFunctions(unittest.TestCase):
 
         self.assertRaises(ValueError, self.theList.remove, -1)
 
-    def test_thistestwillfail(self):
+    #ef test_thistestwillfail(self):
         """show you what a failed test looks like
         """
 
         # theList DOES contain 1.
         # remove will not raise the expected exception
 
-        self.assertRaises(ValueError, self.theList.remove, 1)
+        #elf.assertRaises(ValueError, self.theList.remove, 0)
